@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag devops_tp1_theo:$(date +%h)
+      run: docker build . --file MyService/Dockerfile --tag devops_tp1_theo:$(date +%h)
     - name: Log in Docker Hub
       env:
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
