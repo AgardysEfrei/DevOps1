@@ -29,5 +29,5 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: theo/myservice:latest
+          tags: agardys/devops_tp1:latest
         
