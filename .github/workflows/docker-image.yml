@@ -29,5 +29,5 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: Théo/myservice:latest
+          tags: theo/myservice:latest
         
