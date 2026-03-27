@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: agardys/devops_tp1:$(date +%h)
+          tags: agardys/devops_tp1:latest
